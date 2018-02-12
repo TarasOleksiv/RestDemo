@@ -9,6 +9,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class RestDemoApplication {
     public static void main(String[] args) {
         SpringApplication.run(RestDemoApplication.class);
-        log.info("RestDemoApplication successfully started");
+        //log.info("RestDemoApplication successfully started");
     }
 }

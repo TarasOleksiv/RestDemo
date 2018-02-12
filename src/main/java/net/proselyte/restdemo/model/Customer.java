@@ -27,4 +27,5 @@ public class Customer extends BaseEntity {
 
     @Column(name = "budget")
     private BigDecimal budget;
+
 }

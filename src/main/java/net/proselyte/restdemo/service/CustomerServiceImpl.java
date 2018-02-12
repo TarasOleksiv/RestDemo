@@ -17,25 +17,25 @@ public class CustomerServiceImpl implements CustomerService {
 
     @Override
     public Customer getById(Long id) {
-        log.info("IN getById getting customer by ID {}", id);
+        //log.info("IN getById getting customer by ID {}", id);
         return customerRepository.findOne(id);
     }
 
     @Override
     public void save(Customer customer) {
-        log.info("IN save saving customer {}", customer);
+        //log.info("IN save saving customer {}", customer);
         customerRepository.save(customer);
     }
 
     @Override
     public void delete(Long id) {
-        log.info("IN delete deleting customer by ID {}", id);
+        //log.info("IN delete deleting customer by ID {}", id);
         customerRepository.delete(id);
     }
 
     @Override
     public List<Customer> getAll() {
-        log.info("IN getAll getting all customers");
+        //log.info("IN getAll getting all customers");
         return customerRepository.findAll();
     }
 }
